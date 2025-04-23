@@ -1,0 +1,30 @@
+# Ignore all CSV files
+*.csv
+
+# Ignore system and editor files
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# Ignore Python cache and virtual env files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+ENV/
+.venv/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore joblib model files
+*.joblib
+
+# Ignore logs
+*.log
